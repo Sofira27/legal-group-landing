@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="¿Fuiste víctima de una estafa? En Legal Group te brindamos orientación legal, análisis de tu caso y acompañamiento profesional para proteger tus derechos.">
+
+    <title>LEGAL GROUP | Defensa y Recuperación Legal</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Legal Group">
+            </a>
+
+            <nav class="nav">
+                <a href="#formulario">Evaluar caso</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#noticias">Noticias</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <a href="#formulario" class="btn btn-nav">
+                Consulta Ahora
+            </a>
+
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div class="hero-text fade-up">
+
+                <span class="badge">
+                    DEFENSA Y RECUPERACIÓN LEGAL
+                </span>
+
+                <h1>
+                    ¿Crees que fuiste
+                    <span>víctima de una estafa?</span>
+                </h1>
+
+                <p>
+                    No tomes decisiones sin conocer tus opciones legales.
+                    Analizamos tu situación y te orientamos para proteger tus derechos.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#formulario" class="btn btn-primary">
+                        Evaluar mi caso
+                    </a>
+
+                    <a href="https://wa.me/573152616931"
+                       target="_blank"
+                       class="btn btn-secondary">
+
+                        <i class="fab fa-whatsapp"></i>
+                        Hablar por WhatsApp
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image fade-up">
+
+                <img src="img/hero.jpg"
+                     alt="Persona revisando su celular">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FORMULARIO ================= -->
+
+    <section class="form-section" id="formulario">
+
+        <div class="container">
+
+            <div class="section-title fade-up">
+
+                <span>CONSULTA LEGAL</span>
+
+                <h2>Cuéntanos tu situación</h2>
+
+                <p>
+                    Completa el formulario y uno de nuestros profesionales
+                    te orientará a través de WhatsApp.
+                </p>
+
+            </div>
+
+            <div class="form-container fade-up">
+
+                <form id="casoForm">
+
+                    <!-- Necesidad -->
+
+                    <div class="form-group full">
+
+                        <label>
+                            ¿Qué necesitas hacer?
+                        </label>
+
+                        <select id="necesidad" required>
+
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+
+                            <option>
+                                Orientación legal
+                            </option>
+
+                            <option>
+                                Analizar mi caso
+                            </option>
+
+                            <option>
+                                Presentar denuncia
+                            </option>
+
+                            <option>
+                                Recuperar dinero
+                            </option>
+
+                            <option>
+                                Revisar documentos
+                            </option>
+
+                            <option>
+                                Representación legal
+                            </option>
+
+                            <option>
+                                Otro
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Situación -->
+
+                    <div class="form-group full">
+
+                        <label>
+                            ¿Cuál es tu situación?
+                        </label>
+
+                        <textarea id="situacion"
+                                  rows="6"
+                                  required
+                                  placeholder="Describe brevemente lo sucedido..."></textarea>
+
+                    </div>
+
+                    <!-- Datos -->
+
+                    <div class="form-group">
+
+                        <label>
+                            Nombre completo
+                        </label>
+
+                        <input type="text"
+                               id="nombre"
+                               required
+                               placeholder="Tu nombre">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+                            Teléfono
+                        </label>
+
+                        <input type="tel"
+                               id="telefono"
+                               required
+                               placeholder="Tu número">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+                            Correo electrónico
+                        </label>
+
+                        <input type="email"
+                               id="correo"
+                               placeholder="ejemplo@gmail.com">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+                            Nacionalidad
+                        </label>
+
+                        <input type="text"
+                               id="nacionalidad"
+                               required
+                               placeholder="Ej: Colombiana">
+
+                    </div>
+
+                    <div class="form-group full">
+
+                        <label>
+                            Género
+                        </label>
+
+                        <div class="gender-group">
+
+                            <label class="radio-option">
+
+                                <input type="radio"
+                                       name="genero"
+                                       value="Mujer"
+                                       required>
+
+                                Mujer
+
+                            </label>
+
+                            <label class="radio-option">
+
+                                <input type="radio"
+                                       name="genero"
+                                       value="Hombre">
+
+                                Hombre
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group full">
+
+                        <button type="submit"
+                                class="btn btn-whatsapp">
+
+                            <i class="fab fa-whatsapp"></i>
+
+                            Recibir orientación legal
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SERVICIOS ================= -->
+
+    <section class="services" id="servicios">
+
+        <div class="container">
+
+            <div class="section-title fade-up">
+
+                <span>NUESTROS SERVICIOS</span>
+
+                <h2>¿Cómo podemos ayudarte?</h2>
+
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card fade-up">
+
+                    <i class="fas fa-file-circle-check"></i>
+
+                    <h3>Análisis del caso</h3>
+
+                    <p>
+                        Evaluamos tu situación y las mejores alternativas legales.
+                    </p>
+
+                </div>
+
+                <div class="service-card fade-up">
+
+                    <i class="fas fa-scale-balanced"></i>
+
+                    <h3>Orientación legal</h3>
+
+                    <p>
+                        Te brindamos asesoría clara para tomar decisiones informadas.
+                    </p>
+
+                </div>
+
+                <div class="service-card fade-up">
+
+                    <i class="fas fa-folder-open"></i>
+
+                    <h3>Revisión de pruebas</h3>
+
+                    <p>
+                        Analizamos documentos, conversaciones y evidencias.
+                    </p>
+
+                </div>
+
+                <div class="service-card fade-up">
+
+                    <i class="fas fa-gavel"></i>
+
+                    <h3>Presentación de denuncias</h3>
+
+                    <p>
+                        Te guiamos durante todo el procedimiento.
+                    </p>
+
+                </div>
+
+                <div class="service-card fade-up">
+
+                    <i class="fas fa-user-shield"></i>
+
+                    <h3>Seguimiento</h3>
+
+                    <p>
+                        Acompañamiento constante en cada etapa del proceso.
+                    </p>
+
+                </div>
+
+                <div class="service-card fade-up">
+
+                    <i class="fas fa-handshake"></i>
+
+                    <h3>Representación legal</h3>
+
+                    <p>
+                        Defendemos tus derechos con compromiso y experiencia.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= NOTICIAS ================= -->
+
+    <section class="news" id="noticias">
+
+        <div class="container">
+
+            <div class="section-title fade-up">
+
+                <span>CASOS REALES</span>
+
+                <h2>Las estafas son más comunes de lo que imaginas</h2>
+
+                <p>
+                    Conoce algunas modalidades utilizadas por delincuentes
+                    y cómo las autoridades han actuado.
+                </p>
+
+            </div>
+
+            <div class="videos-grid">
+
+                <div class="video-card fade-up">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/VIDEO1"
+                        title="Video noticia"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+                <div class="video-card fade-up">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/VIDEO2"
+                        title="Video noticia"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+                <div class="video-card fade-up">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/VIDEO3"
+                        title="Video noticia"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DIFERENCIALES ================= -->
+
+    <section class="benefits">
+
+        <div class="container">
+
+            <div class="benefits-grid">
+
+                <div class="benefit-card fade-up">
+
+                    <i class="fas fa-lock"></i>
+
+                    <h3>Confidencialidad Total</h3>
+
+                    <p>
+                        Tu información será tratada con absoluta reserva.
+                    </p>
+
+                </div>
+
+                <div class="benefit-card fade-up">
+
+                    <i class="fas fa-shield-halved"></i>
+
+                    <h3>Experiencia Legal</h3>
+
+                    <p>
+                        Profesionales comprometidos con tu tranquilidad.
+                    </p>
+
+                </div>
+
+                <div class="benefit-card fade-up">
+
+                    <i class="fas fa-handshake"></i>
+
+                    <h3>Compromiso Real</h3>
+
+                    <p>
+                        Cada caso recibe atención personalizada.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta" id="contacto">
+
+        <div class="container fade-up">
+
+            <h2>
+                No enfrentes esta situación solo.
+            </h2>
+
+            <p>
+                Permítenos orientarte y ayudarte a proteger tus derechos.
+            </p>
+
+            <a href="#formulario"
+               class="btn btn-primary">
+
+                Solicitar orientación
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <img src="img/logo.png"
+                 alt="Legal Group">
+
+            <h3>
+                LEGAL GROUP
+            </h3>
+
+            <p>
+                Defensa y Recuperación Legal
+            </p>
+
+            <small>
+                © 2026 LEGAL GROUP. Todos los derechos reservados.
+            </small>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= WHATSAPP FLOAT ================= -->
+
+    <a href="https://wa.me/573152616931"
+       target="_blank"
+       class="whatsapp-float">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
